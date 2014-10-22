@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IMCv4</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="poids">Poids :</string>
+    <string name="taille">Taille :</string>
+    <string name="metres">Mètres</string>
+    <string name="centi">Centimètres</string>
+    <string name="megafonction">Méga Fonction !!!</string>
+    <string name="raz">RAZ</string>
+    <string name="calculer">Calculer IMC</string>
+    <string name="resultat">Résultat :</string>
+
+</resources>

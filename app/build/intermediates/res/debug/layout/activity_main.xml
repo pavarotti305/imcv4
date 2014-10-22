@@ -1,0 +1,128 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.droid.imcv4.MainActivity$PlaceholderFragment" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/txtPoids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/poids"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtPoids"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" >
+
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/txtTaille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/taille"
+            android:textColor="@android:color/holo_purple"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtTaille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+    </LinearLayout>
+
+<RadioGroup
+    android:id="@+id/rdoGrpUnite"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal" >
+
+    <RadioButton
+        android:id="@+id/rdoMetres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="@string/metres" />
+
+    <RadioButton
+        android:id="@+id/rdoCenti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/centi" />
+</RadioGroup>
+
+<CheckBox
+    android:id="@+id/chkFonction"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:text="@string/megafonction"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginTop="35dp"
+    android:gravity="center" >
+
+    <Button
+        android:id="@+id/btnRaz"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/raz" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/calculer" />
+
+</LinearLayout>
+
+<TextView
+    android:id="@+id/txtResult"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/resultat" />
+
+<TextView
+    android:id="@+id/txtIMC"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<TextView
+    android:id="@+id/txtInterp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout><!-- From: file:/C:/Users/tor/AndroidStudioProjects/IMCv4/app/src/main/res/layout/activity_main.xml -->
